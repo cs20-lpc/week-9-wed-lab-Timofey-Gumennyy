@@ -30,7 +30,7 @@ ArrayQueue<T>::~ArrayQueue() {
 template <typename T>
 T ArrayQueue<T>::back() const {
     // TODO
-    if (this->length == 0) throw string("back: error, queue is empty, cannot access the back queue");
+    if (this->length == 0) throw string("back: error, queue is empty, cannot access the back");
     return buffer[backIndex];
 }
 
